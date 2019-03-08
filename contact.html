@@ -22,14 +22,19 @@
 				</nav>
 			</div>
 		</header>
-<div class="box" >
+<div class="contact" >
 		<h1>Contact Me</h1>
-		<p>E-mail Me</p>
+		<hr style="margin:10px; border-color: black;">
 		<form class="contact-form" action="contactform.php" method="post">
-			<input type="text" name="name" placeholder="Full name">
-			<input type="email" name="email" placeholder="Your E-mail">
-			<input type="text" name="subject" placeholder="Subject">
-			<textarea name="message" placeholder="Message"></textarea>
-			<button type="submit" name="submit">Send E-Mail</button>
+			<input type="text" style="padding:5px; margin: 8px" name="name" placeholder="Full name">
+			<br>
+			<input type="email" style="padding:5px; margin: 8px" name="email" placeholder="Your E-mail">
+			<br>
+			<input type="text" style="padding:5px; margin: 8px" name="subject" placeholder="Subject">
+			<br>
+			<textarea name="message" style="width: 200px; height: 100px; padding:5px; margin: 8px" placeholder="Message"></textarea>
+			<br>
+			<input type="button" style="background-color: black; border-color: grey; border-width: 8px; border-style: ridge;  color: white; width:150px; height:40px;" name="submit" value="Submit">
+		</form>
 	</body>
 </html>
