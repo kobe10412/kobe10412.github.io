@@ -1,3 +1,9 @@
+html{
+	height: 100%;
+	margin: auto;
+	overflow: scroll%;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -126,6 +132,7 @@ body{
 	margin: auto;
 	padding: 0;
 	background: url(images/bg.jpg) no-repeat;
+	background-attachment: fixed;
 	overflow-x: hidden;
 	overflow-y: scroll;
 }
@@ -152,4 +159,21 @@ body{
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
+}
+
+.blog{
+	line-height: 200%;
+	color: white;
+	font-weight: 100;
+	font-family: "Century Gothic", sans-serif;
+	width: 50%;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 40px;
+	text-align: center;
+	margin: 0 auto;
+	position: absolute;
+	top: 200px;
+	right: 0;
+	left: 0;
+	border-radius: 3px;
 }
